@@ -40,7 +40,7 @@ Containers, on the other hand, are more lightweight and packaged with all runtim
 -Microservices
 The microservice architectural approach entails building one application as a set of independent services that communicate with each other, but are configured individually. Building an application this way, you can isolate any arising problems ensuring that a failure in one service doesn’t break the rest of the application functions. With the high rate of deployment, microservices allow for keeping the whole system stable, while fixing the problems in isolation.
 
-My thoughts and design plan
+====================My thoughts and design plan=========================
 
 **Gitops & version control system: As this option i will choose Gitlab as a single point source of truth.Where all code can be pushed for infrastacture & base backend codes
 
