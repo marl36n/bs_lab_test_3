@@ -1,3 +1,7 @@
+README.md
+
+=========proper infrastacture deployment solution==========
+
 To design and achieve highly available microservice deployment solution we have keep in mind below points
 
 - Continuous Planning
@@ -54,6 +58,8 @@ My thoughts and design plan
 **Application load balancer: service mesh can be used as loadbalancer for route the traffic accros the service containers which support ingress,proxy.
 
 **Ci : As i am using git source of truth backend code can be build in gitlab as well with the help of gitlab runner.and builded images can stored easily in gitlab container registry with single ci file.
+
+**Testing: Automated testing can done with the help of selenium running on a temporary container when the ci file will run, a single images can be used in every project to test with different test script written in python or bash. 
 
 **Logging : Efk stack can be used for monitoring the service log and storing the log in single point.
 
